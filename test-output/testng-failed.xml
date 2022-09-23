@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.TestCases.HomepageLInksTest">
+        <methods>
+          <include name="Register_Link_Test"/>
+          <include name="Register_here_Link_Test"/>
+          <include name="Support_Link_Test"/>
+          <include name="closeBrowser"/>
+          <include name="Car_Rentals_Link_Test"/>
+          <include name="loadBrowser"/>
+          <include name="Cruises_Link_Test"/>
+          <include name="Hotels_Link_Test"/>
+          <include name="Flight_Link_Test"/>
+          <include name="sign_On_Link_Test"/>
+        </methods>
+      </class> <!-- com.TestCases.HomepageLInksTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
